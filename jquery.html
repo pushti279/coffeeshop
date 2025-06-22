@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery Basics</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      // jQuery ready function
+      $(document).ready(function () {
+        // jQuery code here
+        $("button").click(function () {
+          $("p").text("Text changed using jQuery!");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <p>This is a paragraph.</p>
+    <button>Click me</button>
+  </body>
+</html>

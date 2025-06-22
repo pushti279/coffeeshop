@@ -1,0 +1,126 @@
+#page12 h2 {
+  text-align: center;
+  height: 500px;
+  font-size: 50px;
+  font-weight: 900;
+  text-shadow: 2dvh;
+  text-transform: uppercase;
+  color: rgb(51, 41, 26);
+  padding-top: 3;
+}
+
+tr,
+td {
+  border-style: outset;
+  padding: 80px;
+  align-items: center;
+  text-align: center;
+  border-collapse: separate;
+}
+table {
+  height: 200px;
+  align-content: center;
+}
+/*div {
+  border-style: groove;
+  border-width: 9px;
+  border-color: rgb(240, 190, 190);
+  background-color: rgb(242, 232, 232);
+}
+*/
+/*nav {
+  border-style: solid;
+  border-width: 9px;
+  border-color: rgb(244, 235, 235);
+}
+*/
+.table-container {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 20vh; /* Set a specific height or adjust as needed */
+}
+
+.container{
+  transition: tranform .5s;
+}
+
+table {
+  border-collapse: collapse;
+  border: 10px solid #845050;
+  border-style: groove;
+}
+#drop {
+  align-items: center;
+}
+#login-form {
+  display: grid;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 20px;
+  text-decoration: none;
+  word-spacing: 2px;
+  padding-inline: 300px;
+}
+
+svg{
+  height: 30px;
+  width: 30px;
+}
+
+.cartIcon span{
+  background-color: red;
+  border-radius: 50%;
+}
+
+.cartTab{
+  width: 400px;
+  background-color: #353432;
+  color: #eee;
+  position: fixed;
+  inset: 0 -400px 0 auto;
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+  z-index: 1;
+  transition: .5s;
+}
+
+body.showCart .cartTab{
+  inset: 0 0 0 auto;
+}
+
+body.showCart .container{
+  transform: translateX(-250px);
+}
+
+.cartTab h1{
+  padding: 20px;
+  margin: 0;
+  font-weight: 300;
+  color: #eee;
+  z-index: 1;
+}
+
+.cartTab .btn{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  z-index: 1;
+}
+
+.cartTab .btn .checkOut{
+  background-color: #e88c0e;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: "montserrat";
+  z-index: 1;
+}
+
+.cartTab .btn .close{
+  background-color: #eee;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: "montserrat";
+  z-index: 1;
+}

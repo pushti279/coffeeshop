@@ -1,0 +1,78 @@
+[
+{
+    "id":1,
+    "name": "caramel",
+    "price": 350 ,
+    "image" : "caramel.jpg"
+},{
+    "id":2,
+    "name": "Original Arabica",
+    "price": 450 ,
+    "image" : "orignalarabic.jpg"
+},{
+    "id":3,
+    "name": "Hazelnut Arabica",
+    "price": 250 ,
+    "image" : "hazelnutarabica.jpg"
+},{
+    "id":4,
+    "name": "Caramel Blende",
+    "price": 350 ,
+    "image" : "caramelblende.jpg"
+},{
+    "id":5,
+    "name": "Original Blende",
+    "price": 450 ,
+    "image" : "originalblende.jpg"
+},{
+    "id":6,
+    "name": "Hazelnut Blende",
+    "price": 250 ,
+    "image" : "hazelnutblende.jpg"
+},{
+    "id":7,
+    "name": "Pepper Mint",
+    "price": 350 ,
+    "image" : "peppermint.jpg"
+},{
+    "id":8,
+    "name": "Classic Hot",
+    "price": 450 ,
+    "image" : "classichot.png"
+},{
+    "id":9,
+    "name": "HazelNut",
+    "price": 250 ,
+    "image" : "hazelnut.jpg"
+},{
+    "id":10,
+    "name": "Combo 1",
+    "price": 650 ,
+    "image" : "gift1.jpg"
+},{
+    "id":11,
+    "name": "Combo 2",
+    "price": 450 ,
+    "image" : "gift3.jpg"
+},{
+    "id":12,
+    "name": "Combo 3",
+    "price": 599 ,
+    "image" : "gift2.jpg"
+},{
+    "id":13,
+    "name": "Drinkware 1",
+    "price": 599 ,
+    "image" : "drinkware1.jpg"
+},{
+    "id":14,
+    "name": "Drinkware 2",
+    "price": 450 ,
+    "image" : "drinkware3.jpg"
+},{
+    "id":15,
+    "name": "Drinkware 3",
+    "price": 542 ,
+    "image" : "drinkware5.jpg"
+}
+]

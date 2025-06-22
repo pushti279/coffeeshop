@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<HTML>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+    </script>
+    <script>
+       $("#click").click(function()
+        {
+          $("#animation").fadeIn(1000);
+          $("#hide").hide();
+          $("#show").show();
+
+        });
+      $(document).ready(function()
+      {
+        $("h1").slidedown();
+      });
+       
+      </script>
+
+  </head>
+  <body>
+    <h1> JQUERY EVENTS AND SELECTORS <h1>
+
+      <p> This JQUERY events and their parameters will demonstrate the differents outputs by calling events and fuctions.
+        <p>It is used to give animations and effects to website.
+        
+
+          <button id="click">click</button>
+          <p id="animation"> welcome to the world of animations!
+            <button id="hide"> hide </button>
+            <button id="show">show </button>
+  </body>
+  </html>
